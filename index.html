@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        .p1{
+            color:blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <h1 align="center"><ins>CSS Interview Questions</ins></h1>
+    
+    <p> Q1. Difference between flex row and column.<br>
+       Ans. Flex-Direction:- The flex-direction property specifies the direction of the flexible items.<br>
+       CSS Syntax:- flex-direction: row|row-reverse|column|column-reverse|initial|inherit;<br>
+      <h3>The flex-direction Property</h3>
+      Flex-row: Default value. The flexible items are displayed horizontally, as a row.
+    </p>
+    <p> Flex-column: The flexible items are displayed vertically, as a column.</p>
+
+       <div class="main">
+        <div id="geeks1">Block 1</div>
+        <div id="geeks2">Block 2</div>
+        <div id="geeks3">Block 3</div>
+       </div>  
+       <br>   
+        
+    <hr>
+   
+    
+    <p> Q2. Explain inline , internal and external stylesheet</p><br>
+       
+       <p style="color:blue;">Inline CSS:- Applied directly to a specific HTML element using the style attribute. Inline CSS is best for quick styling tweaks and debugging.</p>
+       <div class="p1">
+         Internal CSS:- Specified in the head section of an HTML document using a style element. Internal CSS is best for single-page projects, prototypes, and overriding external styles.<br>
+      </div>
+      <br>
+      <div class="p2">
+       External CSS:-Stored in a separate .css file and linked to multiple HTML documents using a link element. External CSS is best for multi-page websites, large projects, and maintainability.<br>
+    </div>
+    </p>
+    <hr>
+    <p>
+       Q3. Justify-content allows you to do what?<br>
+        The justify-content property in Cascading Style Sheets (CSS) allows you to align and distribute content items along the main axis of a flex container. 
+        It can also be used to align items in the inline direction of a grid container. 
+        
+        <h2>The justify-content Property</h2>
+        <p>The "justify-content: center;" aligns the flex items at the center of the container:</p>
+        <div class="flex-container">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+        </div>
+    </p>
+    <hr>
+    <br>
+    <p>
+     Q4.Difference between absolute and relative positioning.<br>
+     Relative positioning is a CSS technique that allows an element to be adjusted from its normal position. The syntax for relative positioning is position: relative;
+        <h2>position: relative;</h2>
+       <div class="relative">
+          This element has position:relative;
+       </div>
+       <br>
+     Absolute positioning is another CSS technique that adjusts an elements position relative to its parent. If no parent element is present, the document body is used as the parent.<br>
+     The syntax for absolute positioning is position: absolute;
+    </p>
+    <hr>
+
+    <p>Q5. What is the z-index in CSS?</p>
+    <hr>
+
+    <p> Q6. What is the difference between padding and margin?<br>
+    The main difference between padding and margin is the placement of the space they create: <br>
+    Padding: The space between the content and the border of an element.<br>
+    Margin: The space around an element, between the border and outer components.<br>
+   </p>
+</body>
+</html>

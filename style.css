@@ -1,0 +1,48 @@
+
+.main {
+    display: flex;
+    flex-direction: row;
+    /*flex-direction: column;*/
+}
+#geeks1{
+    height: 100px;
+    width: 200px;
+    background: teal;
+    display:inline-block;
+}
+#geeks2{
+    height: 100px;
+    width: 200px;
+    background: cyan;
+    display:inline-block;
+}
+#geeks3{
+    height: 100px;
+    width: 200px;
+    background: green;
+    display:inline-block;
+}
+div.p2{
+    color:brown;
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+}
+.flex-container>div{
+    background-color: blueviolet;
+    width: 80px;
+    margin: 70px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+}
+div.relative {
+    position: relative;
+    left: 50px;
+    border: 3px solid #73AD21;
+}
+
+
+    
