@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
-    <style>
+    <!--<style>
         .p1{
             color:blueviolet;
         }
-    </style>
+    </style>-->
 </head>
 <body>
-    <h1 align="center"><ins>CSS Interview Questions</ins></h1>
+    <!---<h1 align="center"><ins>CSS Interview Questions</ins></h1>
     
     <p> Q1. Difference between flex row and column.<br>
        Ans. Flex-Direction:- The flex-direction property specifies the direction of the flexible items.<br>
@@ -79,6 +79,135 @@
     The main difference between padding and margin is the placement of the space they create: <br>
     Padding: The space between the content and the border of an element.<br>
     Margin: The space around an element, between the border and outer components.<br>
-   </p>
+   </p>---->
+
+    <h1 class="h1">CSS Day2 Interview Questions</h1> 
+    <div class="box1">
+    <p>Q1. What is box sizing?</p>
+    <hr>
+    <p>Ans. The CSS box-sizing property allows us to include the padding and border in an element's total width and height.</p> 
+      <h2><ins>Example:</ins></h2>
+    <div class="div1">
+      This div is smaller (width is 300px and height is 100px).
+    </div> 
+   </div>                                                                                                 
+    <div class="box2">
+    <p> Q2. What is animation delay?</p>
+    <hr>
+    <ul>
+      <li>Animation delay is a CSS property that specifies the time to wait before an animation starts.</li>
+      <li>It's used in conjunction with other animation properties to create an animation effect.</li>
+      <li>The animation-delay value is defined in seconds (s) or milliseconds (ms).</li>
+      <li>Default value:	0s</li>
+    </ul>
+    <!--The animation-delay property specifies a delay for the start of an animation.-->
+    <h2><ins>Example:</ins></h2>
+
+      <div class="div2"></div>
+    </div>
+
+      <div class="box3">
+      <p>Q3. Which property you will use to merge cells vertically in grid?</p>
+      <hr>
+      Ans. To merge cells vertically in a CSS Grid, you use the grid-row property with the span keyword or specify a range of rows.
+      <h2><ins>Example:</ins></h2>
+       <div class="container">
+         <div class="item1">Merged Vertically</div>
+         <div class="item2">Item 2</div>
+         <div class="item3">Item 3</div>
+         <div class="item4">Item 4</div>
+       </div>
+      </div>
+
+
+
+      <div class="box4">
+      <p>Q4. Which property you will use to merge cells horizontally in grid?</p>
+      <hr>
+       Ans. To merge cells horizontally in a CSS Grid, you use the grid-column property. You can either use the span keyword to span a cell across multiple columns or specify the exact range of columns.
+      <p></p>
+      <div class="main">
+         <div class="item5">Merged Horizontally</div>
+         <div class="item6">Item 2</div>
+         <div class="item7">Item 3</div>
+         <div class="item8">Item 4</div>
+       </div>
+      </div>
+
+      <div class="box5">
+      <p>Q4. Explain CSS box model</p>
+      <hr>
+      <p>Ans. The box model allows us to add a border around elements, and to define space between elements. </p>
+      <ul>
+         <li>Content - The content of the box, where text and images appear.</li>
+         <li>Padding - Clears an area around the content. The padding is transparent.</li>
+         <li>Border - A border that goes around the padding and content.</li>
+         <li>Margin - Clears an area outside the border. The margin is transparent.</li>
+      </ul>
+      <h2><ins>Example:</ins></h2>
+      <div class="div3">
+         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+         Veritatis cumque, quasi hic quia corporis vel consequuntur sed nisi pariatur est, 
+         nemo dolore debitis incidunt, non iure quis doloribus odit assumenda!</p>
+      </div>
+      </div>
+      <div class="box6">
+      <p>Q5. what is the difference between display none and visibility hidden?</p>
+      <hr>
+      <ul>
+         <li>Display: none: Can be used to hide elements without deleting and recreating them.</li>
+         <li>Visibility: hidden: Can be used to hide elements while ensuring the layout doesn't shift.</li>
+      </ul>
+      <hr>
+      <div>
+      <h2><ins>Example:</ins></h2>
+      <h2 class="a">This heading is visible</h2>
+      <h2 class="b">This heading is hidden</h2>
+      <p>Notice that the hidden heading still takes up space on the page.</p>
+     </div>
+     </div>
 </body>
 </html>
+
+
+<!---<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Horizontal Merge in Grid</title>
+  <style>
+    .main {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr); /* 4 columns */
+      grid-template-rows: repeat(3, 100px);  /* 3 rows */
+      gap: 10px; /* Gap between cells */
+    }
+
+    .item1 {
+      background-color: lightblue;
+      grid-column: span 2; /* This will merge the cell horizontally for 2 columns */
+    }
+
+    .item2 {
+      background-color: lightgreen;
+    }
+
+    .item3 {
+      background-color: lightcoral;
+    }
+
+    .item4 {
+      background-color: lightyellow;
+    }
+  </style>
+</head>
+<body>
+  <div class="main">
+    <div class="item1">Merged Horizontally</div>
+    <div class="item2">Item 2</div>
+    <div class="item3">Item 3</div>
+    <div class="item4">Item 4</div>
+  </div>
+</body>
+</html>--->
